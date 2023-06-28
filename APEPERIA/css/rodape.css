@@ -19,7 +19,12 @@
   width: 42px;
   height: 42px;
 
+
   margin: 2rem 1rem;
+}
+.rodape__midia img{
+  width: 42px;
+  height: 42px;
 }
 
 .rodape__navegacao {
