@@ -1,0 +1,16 @@
+body{
+  margin: 0 auto;
+  padding: 2rem; 
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.1rem;
+}
+
+.lista__item{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
