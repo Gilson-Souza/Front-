@@ -1,0 +1,20 @@
+:root {
+  /* colors */
+  --base-color: #0b111b;
+  --base-color-second: #28313a;
+  --base-color-button: linear-gradient(120deg, #fad961, #f76b1c);
+  --base-color-button-second: linear-gradient(to bottom, Gold , Orange , DarkOrange );
+  --text-color: #fff;
+  --text-color-strong:  darkorange;
+  --base-color-efect: #fad961;
+  
+
+ --title-font: 'Poppins', sans-serif;
+ --body-font: 'Spartan', sans-serif;
+}
+
+
+
+body{
+  font-family: 'Montserrat' sans-serif;
+}

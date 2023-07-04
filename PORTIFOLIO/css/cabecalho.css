@@ -1,16 +1,35 @@
-body{
-  margin: 0 auto;
-  padding: 2rem; 
-}
 
-.container{
+.cabecalho{
   display: flex;
   justify-content: space-between;
-  margin: 0.1rem;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  width: 100vw;
+  font-size: 1.4rem;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  
 }
 
-.lista__item{
+.cabecalho__nome{
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  width: 250px;
+  margin: 0.75rem;
+
+}
+
+.cabecalho__lista{
+  display: flex;
+  align-items: center;
+}
+
+.nav-item{
+  display: flex;
   margin-right: 1rem;
 }

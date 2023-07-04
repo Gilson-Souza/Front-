@@ -1,0 +1,25 @@
+body .apresentacao{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apresentacao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+.imagem__pessoal{
+  max-width: 400px;
+  max-height: 400px;  
+}
+
+.sobre__text{
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 1rem;
+ 
+}

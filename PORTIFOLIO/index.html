@@ -3,27 +3,380 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+ 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/apresentacao.css">
+  <link rel="stylesheet" href="css/sobre.css">
+  <link rel="stylesheet" href="css/skill.css">
+  <link rel="stylesheet" href="css/diferenciais.css">
+  <link rel="stylesheet" href="css/portifolio.css">
+  <link rel="stylesheet" href="css/rodape.css">
   <title>Gilson | Portifólio</title>
 </head>
 <body>
-    <header class="container">
-        <div class="container">
-          <img src="" alt="#" class="lista__item">
+    <header>
+      <div class="cabecalho">
+        <div class="cabecalho__nome">
+          <img src="img/icons8-desenvolvedor-60.png" alt="" class="lista__item">
           <h1 class="lista__item">Gilson C. Souza</h1>
         </div>
-        <ul class="container">
-          <li class="lista__item"><a href="#">Home</a></li>
-          <li class="lista__item"><a href="#">Sobre</a></li>
-          <li class="lista__item"><a href="#">Skills</a></li>
-          <li class="lista__item"><a href="#">Diferenciais</a></li>
-          <li class="lista__item"><a href="#">Portifólio</a></li>
-          <li class="lista__item"><a href="#">Contato</a></li>
-        </ul>
+        <div class="cabecalho__lista">
+          <ul class="cabecalho__lista">
+            <li><a href="#inicio" class="nav-item nav-link" id="home-menu">Home</a></li>
+            <li><a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre</a></li>
+            <li><a href="#skills-area" class="nav-item nav-link" id="skills-menu">Skills</a></li>
+            <li><a href="#service" class="nav-item nav-link" id="differentials-menu">Diferenciais</a></li>
+            <li><a href="#portfolio-area" class="nav-item nav-link" id="portifolio-menu">Portifolio</a></li>
+            <li><a href="#data-area" class="nav-item nav-link" id="contact-menu">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-      </header>
+      <main>
+        <section class="apresentacao">
+          <div>
+            <p class="texto__apresetancao">Oi, eu sou</p>
+            <p class="texto__apresetancao">Gilson Crisostemo de Souza</p>
+            <button><a href="">Linkedin</a></button>
+          </div>
+          <img src="img/avatar.jpg" alt="imagem pessoal" class="imagem__pessoal">
+        </section>
 
-  
+        <section>
+            
+            <!--Sobre mim-->
+            <div id="about-area">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h3 class="main-title">Sobre mim</h3>
+                  </div>
+                    <div class="col-md-6">
+                      <img class="img-fluid" src="./img/sobre_opcao3.svg" alt="">
+                    </div>
+                  <div class="col-md-6" id="sobre-mim" class="sobre__mim">
+                      <p class="sobre__text">Olá! Me chamo Gilson Souza e eu sou um apaixonado por tecnologia que decidiu trilhar o caminho da programação.</p>
+                      <p class="sobre__text">Sou desenvolvedor com foco na criação de sistemas que gerem satisfação para meus clientes. Adoro um desafio e acredito que o mundo pode ser transformado pelo poder da informação.</p>
+                      <p class="sobre__text">No momento estou cursando Análise e Desenvolvimento de Sistema na Fatec Mogi das Cruzes e agregando meus estudos com os cursos da Alura, possuo experiência academicas e busco minha primeira oportunidade de estagio na area desenvolvimento front ou back-end.</p>   
+                  </div>
+                </div>
+            </div>
+          </section> 
+          
+           <!--Minhas Skills-->
+        <article id="skills-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12 col">
+                      <h3 class="main-title">Minhas <strong>Skills</strong></h3>
+                      <div id="skillsSlider" class="carousel slide" data-ride="carousel" data-interval="10000">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          </div>
+                      
+                              <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <div class="row">
+                                        <div class="col-md-2 col-4">
+                                          <div class="single-box">
+                                              <div class="img-area"><img src="./img/icon-html 5.svg" alt=""></div>
+                                              <div class="img-text">
+                                              <h5>HTML</h5>        
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                      <div class="img-area"><img src="./img/icon-css 3.svg" alt=""></div>
+                                      <div class="img-text">
+                                        <h5>CSS</h5>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                      <div class="img-area"><img src="./img/icon-javascript.svg" alt=""></div>
+                                      <div class="img-text">
+                                        <h5>JavaScript</h5>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                      <div class="img-area"><img src="./img/angular.svg" alt=""></div>
+                                      <div class="img-text">
+                                        <h5>Angular</h5>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./img/c-sharp-logo.svg" alt=""></div>
+                                        <div class="img-text">
+                                          <h5>C#</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                  <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                      <div class="img-area"><img src="./img/java.svg" alt=""></div>
+                                      <div class="img-text">
+                                          <h5>Java</h5>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                          <!--Slider escondido-->
+                          <div class="carousel-item">
+                              <div class="row">
+                                <div class="col-md-2 col-4">
+                                  <div class="single-box">
+                                    <div class="img-area"><img src="./img/icon-react.svg" alt=""></div>
+                                    <div class="img-text">
+                                        <h5>ReactJS</h5>
+                                    </div>
+                                  </div>
+                                </div>
+                        
+                                  <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                      <div class="img-area"><img src="./img/icon-mysql.svg" alt=""></div>
+                                      <div class="img-text">
+                                          <h5>MySQL</h5>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                  <div class="col-md-2 col-4">
+                                      <div class="single-box">
+                                        <div class="img-area"><img src="./img/icon-git.svg" alt=""></div>
+                                        <div class="img-text">
+                                          <h5>Git</h5>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-2 col-4">
+                                      <div class="single-box">
+                                        <div class="img-area"><img src="./img/icon-github.svg" alt=""></div>
+                                        <div class="img-text">
+                                          <h5>GitHub</h5>
+                                        </div>
+                                       </div>
+                                  </div>
+                                  <div class="col-md-2 col-4">
+                                      <div class="single-box">
+                                        <div class="img-area"><img src="./img/icon-figma.svg" alt=""></div>
+                                        <div class="img-text">
+                                          <h5>Figma</h5>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!--Diferencias-->
+      <section id="service">
+        <video autoplay muted loop>
+            <source src="./movie/studio.mp4" type="video/mp4">
+        </video>
+        <div class="col-12">
+            <h3 class="main-title">Power <strong>Up</strong></strong></h3>
+        </div>
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1" >
+                    <h4>Clean Code</h4>
+                    <p class="card-text">Durante o desenvolvimento tenho como principal fundamento a qualidade do meu código, seguindo as melhores práticas do mercado.</p>
+                    <i class="fa-solid fa-laptop-code"></i>
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                    <h4>SEO profissional</h4>
+                    <p>Tenha tudo que o Google recomenda em suas páginas institucionais. Ofereço serviço especializado de SEO para potencializar ainda mais seu website personalizado.</p>
+                    <i class="fa-brands fa-google"></i>
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                    <h4>Metodologias ágeis</h4>
+                    <p class="card-text">Utilizo de planejamentos otimizados que aceleram o fluxo de produção e desenvolvimento. Através de feedback e interações constantes, eu garanto agilidade e eficiência do processo.</p>
+                    <i class="fa-solid fa-clock"></i>
+                </label>
+            </div>
+        </div>
+    </section>
+
+            <!--Portifólio-->
+        <section id="portfolio-area">
+              <div class="container" id="my-portfolio">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <h3 class="main-title">Meus <strong>Projetos</strong></h3>
+                      </div>
+                    <div class="projeto__cards">
+
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/coffee.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/coffee.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/coffee.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/coffee.gif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </section>
+           <!--Contact-->
+        <article>
+          <div id="data-area">
+              <div id="contact" class="contact">
+                  <div class="container">
+                      <div class="row py-4">
+                          <div class="col-md-12 text-center" id="area-contact">
+                              <h3 class="main-title">Fale comigo</h3>
+                              <p>"Resta alguma dúvida? Preencha os campos abaixo com os seguintes dados que em breve entraremos em contato."</p>
+                              <div class="col-md-8 mx-auto">
+                                  <div id="email-alert">
+                                      <form action="">
+                                          <div class="row">
+                                              <div class="col-md-6 mb-3">
+                                                  <label for="name" class="form-label">Seu Nome (*)</label>
+                                                  <input type="text" class="form-control" id="name">
+                                              </div>
+                                              <div class="col-md-6 mb-3">
+                                                  <label for="email" class="form-label">E-MAIL(*)</label>
+                                                  <input type="email" class="form-control" id="email">
+                                              </div>
+                                              <div class="col-md-4 mb-3">
+                                                  <label for="phone" class="form-label">TELEFONE</label>
+                                                  <input type="phone" class="form-control" id="phone">
+                                              </div>
+                                              <div class="col-md-8 mb-3">
+                                                  <label for="subject" class="form-label">ASSUNTO (*)</label>
+                                                  <input type="text" class="form-control" id="subject">
+                                              </div>
+                                              <div class="col-md-12 mb-3">
+                                                  <label for="message" class="form-label">MENSAGEM (*)</label>
+                                                  <textarea class="form-control" id="message" rows="4"></textarea>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-12 text-center d-grid mt-2">
+                                              <button onclick="sendEmailContact()" class="btn btn-primary btn-lg">Enviar</button>
+                                          </div>                                           
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </article>
+
+      <!--Footer-->
+      <footer>
+          <div class="container" id="footer">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="logo">
+                          <img id="logo" src="./img/gilson-rosto.jpg" alt="" class="imagem__rodape"><br>
+                          <p>Thanks for visiting my Portfolio.</p>
+                      </div>
+                  </div>
+              
+              <div class="col-md-4 medias">
+                  <ul class="my-auto">
+                      <li>
+                          <h3>Contato</h3>
+                      </li>
+                      <li>
+                          <i class="fa-solid fa-square-phone-flip me-2 ola" id="icon-main"><p>(11) 947799976</p></i>
+                      </li>
+                      <li>
+                          <i class="fa-solid fa-envelope me-2 ola" id="icon-main"><p> gilsonpro10@gmail.com</p></i>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-4 medias">
+                  <h3>Social Media</h3>
+                  <div class="social">
+                      <a href="https://github.com/Piresives" target="_blank">
+                          <i id="icon-main" class="fa-brands fa-square-github"></i> 
+                      </a>
+                      <a href="https://www.instagram.com/ives_pmiranda/" target="_blank">
+                          <i id="icon-main" class="fa-brands fa-square-instagram"></i>
+                      </a>
+                      <a href="javascript:void(0)" onclick="whatsSendMessage()">
+                          <i id="icon-main" class="fa-brands fa-square-whatsapp"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/ives-pires-de-miranda-642a02225/">
+                          <i id="icon-main" class="fa-brands fa-linkedin"></i>
+                      </a>
+                  </div>
+              </div>
+             </div>
+          </div>
+      </footer>
+
+      </main>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <!-- Importação do Bootstrap JS -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
