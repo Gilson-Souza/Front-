@@ -1,0 +1,10 @@
+.projeto__cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(rgb(74, 69, 69), rgb(97, 123, 97), rgb(88, 88, 111));  
+}
+
+.main-title{
+  padding-top: 6.25rem;
+}
