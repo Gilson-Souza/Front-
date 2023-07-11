@@ -29,35 +29,63 @@
         </div>
         <div class="cabecalho__lista">
           <ul class="cabecalho__lista">
-            <li><a href="#inicio" class="nav-item nav-link" id="home-menu">Home</a></li>
-            <li><a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre</a></li>
-            <li><a href="#skills-area" class="nav-item nav-link" id="skills-menu">Skills</a></li>
-            <li><a href="#service" class="nav-item nav-link" id="differentials-menu">Diferenciais</a></li>
-            <li><a href="#portfolio-area" class="nav-item nav-link" id="portifolio-menu">Portifolio</a></li>
-            <li><a href="#data-area" class="nav-item nav-link" id="contact-menu">Contato</a></li>
+            <li><a href="#inicio" class="nav-item nav-link " id="home-menu">Home</a></li>
+            <li><a href="#about-area" class="nav-item nav-link " id="about-menu">Sobre</a></li>
+            <li><a href="#skills-area" class="nav-item nav-link " id="skills-menu">Skills</a></li>
+            <li><a href="#service" class="nav-item nav-link " id="differentials-menu">Diferenciais</a></li>
+            <li><a href="#portfolio-area" class="nav-item nav-link " id="portifolio-menu">Portifolio</a></li>
+            <li><a href="#data-area" class="nav-item nav-link " id="contact-menu">Contato</a></li>
           </ul>
         </div>
       </div>
     </header>
 
       <main>
-        <section class="apresentacao">
-          <div>
-            <p class="texto__apresetancao">Oi, eu sou</p>
-            <p class="texto__apresetancao">Gilson Crisostemo de Souza</p>
-            <button><a href="">Linkedin</a></button>
-          </div>
-          <img src="img/avatar.jpg" alt="imagem pessoal" class="imagem__pessoal">
-        </section>
+        <main>
+          <!--Home-->
+          <section id="inicio">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-6" id="apresentação">
+                          <p class="descricao"><br/>
+                              <span style="display: inline" class="meu-nome" id="texto"></span>
+                              <br/><!-- Desenvolvedor Full Stack -->
+                          </p>
+                          <br/>
+                          <div id="btn">
+                            <a href="https://www.linkedin.com/in/gilsonsouza-dev/"target="_blank">Linkedin</a>
+                          </div>
+                      </div>
+                      <div class="col-md-6" id="desenho">
+                          <div class="Avatar">
+                              <img class="desenho-3D" src="./img/meuAvatar.svg" alt="Eu-em-Metaverso">
+                              <h6 class="card-3D"><span>Developer<br><br>“Seja resiliente, acredite no seu <br> potencial, creia que é capaz e você será!”<hr></h6>
+                              <ul>
+                                <li class="icon-main text-center-mobile">
+                                  <a href="https://www.instagram.com/ives_pmiranda/"  target="_blank">
+                                    <i class="fa-brands fa-square-instagram" id="icon-main"></i>
+                                  </a>
+                                  <a href="https://github.com/Piresives" target="_blank">
+                                    <i class="fa-brands fa-square-github" id="icon-main"></i>
+                                  </a>
+                                  <a href="javascript:void(0)" onclick="whatsSendMessage()">
+                                    <i class="fa-brands fa-square-whatsapp" id="icon-main"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
 
-        <section>
-            
+        <section>       
             <!--Sobre mim-->
             <div id="about-area">
               <div class="container">
                 <div class="row">
                   <div class="col-12">
-                    <h3 class="main-title">Sobre mim</h3>
+                    <h3 class="main-title">Sobre <strong>Mim</strong></h3>
                   </div>
                     <div class="col-md-6">
                       <img class="img-fluid" src="./img/sobre_opcao3.svg" alt="">
@@ -177,6 +205,14 @@
                                        </div>
                                   </div>
                                   <div class="col-md-2 col-4">
+                                    <div class="single-box">
+                                      <div class="img-area"><img src="./img/icon-bootstrap.svg" alt=""></div>
+                                      <div class="img-text">
+                                        <h5>Bootstrap</h5>
+                                      </div>
+                                     </div>
+                                </div>
+                                  <div class="col-md-2 col-4">
                                       <div class="single-box">
                                         <div class="img-area"><img src="./img/icon-figma.svg" alt=""></div>
                                         <div class="img-text">
@@ -204,36 +240,35 @@
       </article>
 
       <!--Diferencias-->
-      <section id="service">
-        <video autoplay muted loop>
-            <source src="./movie/studio.mp4" type="video/mp4">
-        </video>
-        <div class="col-12">
-            <h3 class="main-title">Power <strong>Up</strong></strong></h3>
-        </div>
-        <div class="container">
-            <input type="radio" name="slider" id="item-1" checked>
-            <input type="radio" name="slider" id="item-2">
-            <input type="radio" name="slider" id="item-3">
-            <div class="cards">
-                <label class="card" for="item-1" id="song-1" >
-                    <h4>Clean Code</h4>
-                    <p class="card-text">Durante o desenvolvimento tenho como principal fundamento a qualidade do meu código, seguindo as melhores práticas do mercado.</p>
-                    <i class="fa-solid fa-laptop-code"></i>
-                </label>
-                <label class="card" for="item-2" id="song-2">
-                    <h4>SEO profissional</h4>
-                    <p>Tenha tudo que o Google recomenda em suas páginas institucionais. Ofereço serviço especializado de SEO para potencializar ainda mais seu website personalizado.</p>
-                    <i class="fa-brands fa-google"></i>
-                </label>
-                <label class="card" for="item-3" id="song-3">
-                    <h4>Metodologias ágeis</h4>
-                    <p class="card-text">Utilizo de planejamentos otimizados que aceleram o fluxo de produção e desenvolvimento. Através de feedback e interações constantes, eu garanto agilidade e eficiência do processo.</p>
-                    <i class="fa-solid fa-clock"></i>
-                </label>
-            </div>
-        </div>
-    </section>
+     <!--Diferencias-->
+     <section id="service">
+     
+      <div class="col-12">
+          <h3 class="main-title titulo__dif">Power <strong>Up</strong></strong></h3>
+      </div>
+      <div class="container">
+          <input type="radio" name="slider" id="item-1" checked>
+          <input type="radio" name="slider" id="item-2">
+          <input type="radio" name="slider" id="item-3">
+          <div class="cards">
+              <label class="card" for="item-1" id="song-1" >
+                  <h4>Clean Code</h4>
+                  <p class="card-text">Durante o desenvolvimento tenho como principal fundamento a qualidade do meu código, seguindo as melhores práticas do mercado.</p>
+                  <i class="fa-solid fa-laptop-code"></i>
+              </label>
+              <label class="card" for="item-2" id="song-2">
+                  <h4>SEO profissional</h4>
+                  <p>Tenha tudo que o Google recomenda em suas páginas institucionais. Ofereço serviço especializado de SEO para potencializar ainda mais seu website personalizado.</p>
+                  <i class="fa-brands fa-google"></i>
+              </label>
+              <label class="card" for="item-3" id="song-3">
+                  <h4>Metodologias ágeis</h4>
+                  <p class="card-text">Utilizo de planejamentos otimizados que aceleram o fluxo de produção e desenvolvimento. Através de feedback e interações constantes, eu garanto agilidade e eficiência do processo.</p>
+                  <i class="fa-solid fa-clock"></i>
+              </label>
+          </div>
+      </div>
+  </section>
 
             <!--Portifólio-->
         <section id="portfolio-area">
@@ -243,7 +278,6 @@
                           <h3 class="main-title">Meus <strong>Projetos</strong></h3>
                       </div>
                     <div class="projeto__cards">
-
                       <div class="card" style="width: 18rem;">
                         <img src="img/coffee.gif" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -287,7 +321,7 @@
                   <div class="container">
                       <div class="row py-4">
                           <div class="col-md-12 text-center" id="area-contact">
-                              <h3 class="main-title">Fale comigo</h3>
+                              <h3 class="main-title">Fale <strong>Comigo</strong></h3>
                               <p>"Resta alguma dúvida? Preencha os campos abaixo com os seguintes dados que em breve entraremos em contato."</p>
                               <div class="col-md-8 mx-auto">
                                   <div id="email-alert">
@@ -327,52 +361,47 @@
           </div>
       </article>
 
-      <!--Footer-->
-      <footer>
-          <div class="container" id="footer">
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="logo">
-                          <img id="logo" src="./img/gilson-rosto.jpg" alt="" class="imagem__rodape"><br>
-                          <p>Thanks for visiting my Portfolio.</p>
-                      </div>
-                  </div>
-              
-              <div class="col-md-4 medias">
-                  <ul class="my-auto">
-                      <li>
-                          <h3>Contato</h3>
-                      </li>
-                      <li>
-                          <i class="fa-solid fa-square-phone-flip me-2 ola" id="icon-main"><p>(11) 947799976</p></i>
-                      </li>
-                      <li>
-                          <i class="fa-solid fa-envelope me-2 ola" id="icon-main"><p> gilsonpro10@gmail.com</p></i>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-md-4 medias">
-                  <h3>Social Media</h3>
-                  <div class="social">
-                      <a href="https://github.com/Piresives" target="_blank">
-                          <i id="icon-main" class="fa-brands fa-square-github"></i> 
-                      </a>
-                      <a href="https://www.instagram.com/ives_pmiranda/" target="_blank">
-                          <i id="icon-main" class="fa-brands fa-square-instagram"></i>
-                      </a>
-                      <a href="javascript:void(0)" onclick="whatsSendMessage()">
-                          <i id="icon-main" class="fa-brands fa-square-whatsapp"></i>
-                      </a>
-                      <a href="https://www.linkedin.com/in/ives-pires-de-miranda-642a02225/">
-                          <i id="icon-main" class="fa-brands fa-linkedin"></i>
-                      </a>
-                  </div>
-              </div>
-             </div>
-          </div>
-      </footer>
+     
+     
+
 
       </main>
+      <!--Footer-->
+     <footer>
+      <div class="container" id="footer">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="logo">
+                      <img id="logo" src="./img/gilson-rosto.jpg" alt="" class="imagem__rodape"><br>
+                      <p>Obrigado por visistar meu Portfolio.</p>
+                  </div>
+              </div>
+          
+          <div class="col-md-4 medias">
+              <ul class="my-auto">
+                  <li>
+                      <h3>Contato</h3>
+                  </li>
+                  <li>
+                      <i class="fa-solid fa-square-phone-flip me-2 ola" id="icon-main"><p>(11) 94779-9976</p></i>
+                  </li>
+                  <li>
+                      <i class="fa-solid fa-envelope me-2 ola" id="icon-main"><p> gilsonpro10@gmail.com</p></i>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-4 medias">
+              <h3>Social Media</h3>
+              <div class="social">
+                  <a href="javascript:void(0)" onclick="whatsSendMessage()">
+                      <i id="icon-main" class="fa-brands fa-square-whatsapp"></i>
+                  </a>                
+              </div>
+          </div>
+         </div>
+      </div>
+  </footer>
+      <script src="assets/arquivo.js"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
        <!-- Importação do Bootstrap JS -->
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

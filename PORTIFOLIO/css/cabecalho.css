@@ -3,12 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0.442);
   color: white;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   width: 100vw;
-  font-size: 1.4rem;
+  height: 8%;
+  font-size: 1.5rem;
   z-index: 9999;
   position: fixed;
   top: 0;
@@ -32,4 +33,5 @@
 .nav-item{
   display: flex;
   margin-right: 1rem;
+  font-size: 1.50rem;
 }

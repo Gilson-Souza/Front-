@@ -1,5 +1,4 @@
-body main{
-  
+body main{  
   margin: 0 auto;
 }
 
@@ -15,4 +14,11 @@ body main{
   text-align: center;
   padding: 2.75rem;
   font-size: 3rem;
+}
+
+.sobre__text{
+  text-align: justify;
+  font-size: 1.50rem;
+  padding: 1rem;
+ 
 }

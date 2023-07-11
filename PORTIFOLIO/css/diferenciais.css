@@ -1,14 +1,14 @@
 /*Serviços*/
-#service video{
-  position: absolute;
-  object-fit: cover;
-  width: 100vw;
-  height: 80%;
+
+
+.titulo__dif{
+  margin-bottom: 2rem;
+ 
 }
 
 #service .container{
   width: 70%;
-  height: 62vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
