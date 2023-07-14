@@ -1,5 +1,3 @@
-/*Minhas Skills*/
-
 strong{
   color: var(--text-color-strong);
 }
@@ -24,6 +22,9 @@ strong{
   justify-content: center;
   align-items: center;
  
+}
+h5{
+  color: var(--text-color);
 }
 
 .img-area{
