@@ -18,7 +18,7 @@
 }
 
 .meu-nome {
-  font-size: 50px;;
+  font-size: 50px;
 }
 
 .meu-nome::after{
@@ -38,8 +38,8 @@
 }
 
 #btn{
-  width: 479px;
-  height: 85px;
+  width: 400px;
+  height: 80px;
   margin-left: 1.5rem;
   background:var(--base-color-button);
   border-radius: 30px;
@@ -61,8 +61,8 @@
 }
 
 .desenho-3D {
-  height: 280px;
-  width: 280px;
+  height: 250px;
+  width: 250px;
   position:relative;
   animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
   border-radius: 0.8rem;
@@ -109,21 +109,6 @@
   }
 }
 
-.icon-main{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-#icon-main{
-  color: var(--text-color);
-  font-size: 2rem;
-  margin-right: 1rem;
-}
-
-#icon-main:hover{
-  color: var(--base-color-efect);
-}
 
 .card-3D {
   margin-left: 20px;
@@ -138,6 +123,7 @@ hr{
   width: 70%;
   background-color:  var(--base-color-efect);
 }
+
 
 @media screen and (max-width: 767.98px){
   .container{

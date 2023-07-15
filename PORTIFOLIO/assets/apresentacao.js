@@ -1,13 +1,14 @@
-let textos = [
+const textos = [
   "Oi, eu sou...",
   "Gilson Crisostemo de Souza",
-  "Dev back-end | front-end"
+  "Desenvolvedor back-end | front-end",
+  "Seja bem vindo ao meu Portifólio"
 ];
-let velocidade = 100; // velocidade em milissegundos
-let intervalo = 5000; // intervalo de 5 segundos em milissegundos
+const velocidade = 100; // velocidade em milissegundos
+const intervalo = 5000; // intervalo de 5 segundos em milissegundos
 
-let divTexto = document.getElementById("texto");
-let i = 0;
+var divTexto = document.getElementById("texto");
+var i = 0;
 
 function exibirTexto() {
   let textoAtual = textos[i];

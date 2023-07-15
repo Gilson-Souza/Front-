@@ -1,9 +1,12 @@
-/*Footer*/
 footer {
   border-top: 10px solid var(--base-color-efect);
   background: var(--base-color-second);
   color: var(--text-color);
-} 
+}
+
+footer #logo{
+  width: 180px;
+}
 
 #footer{
   display: flex;
@@ -56,8 +59,6 @@ footer .social a:hover {
   transform: translateY(-8px);
 }
 
-
-
 .imagem__rodape{
   max-width: 100px;
   max-height: 100px;
@@ -66,8 +67,4 @@ footer .social a:hover {
 
 .text-center{
   padding-bottom: 2rem;
-}
-
-footer #logo{
-  width: 180px;
 }

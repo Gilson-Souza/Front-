@@ -13,17 +13,16 @@
  --body-font: 'Spartan', sans-serif;
 }
 
-
-
 body{
   font-family: 'Montserrat' sans-serif;
-  background-color: #4874a0;
+  background-color: #283c4f;
 }
 
 .main-title{
   z-index: 9999;
-  margin-top: 2rem;
+  color: var(--text-color);
 }
+
 
 ::-webkit-scrollbar{
   background-color: #1d1d1d;
@@ -49,6 +48,9 @@ p, li{
   color: var(--text-color);
   font-size: 14px;
 }
+
+
+
 
 @media screen and (max-width: 767.98px){
   #service .container{
