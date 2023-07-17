@@ -88,6 +88,10 @@
   color: rgb(225, 225, 225, 0.5);
 }
 
+.card-texto{
+  font-size: 1.10rem;
+}
+
 
 #item-1:checked ~ .cards #song-2,
 #item-2:checked ~ .cards #song-3,

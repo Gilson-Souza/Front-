@@ -114,7 +114,7 @@
                       <div id="skillsSlider" class="carousel slide" data-ride="carousel" data-interval="10000">
                         <div id="carouselExampleIndicators" class="carousel slide">
                           <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="carouselButton"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                           </div>
                       
@@ -232,17 +232,17 @@
           <div class="cards">
             <label class="card" for="item-1" id="song-1" >
                   <h4>Clean Code</h4>
-                  <p class="card-text">Durante o desenvolvimento, priorizo a qualidade do código como um dos principais fundamentos, seguindo as melhores práticas e padrões estabelecidos.</p>
+                  <p class="card-texto">Durante o desenvolvimento, priorizo a qualidade do código como um dos principais fundamentos, seguindo as melhores práticas e padrões estabelecidos.</p>
                   <i class="fa-solid fa-laptop-code"></i>
               </label>
               <label class="card" for="item-2" id="song-2">
                 <h4>Trabalho em equipe</h4>
-                <p>Promovendo uma comunicação eficaz e uma interação harmoniosa, fomentando um ambiente de trabalho colaborativo e produtivo.</p>
+                <p class="card-texto">Promovendo uma comunicação eficaz e uma interação harmoniosa, fomentando um ambiente de trabalho colaborativo e produtivo.</p>
                 <i class="fa-brands fa-google"></i>
               </label>
               <label class="card" for="item-3" id="song-3">
                   <h4>Metodologias ágeis</h4>
-                  <p class="card-text">Utilizando estratégias de planejamento otimizadas para acelerar o fluxo de produção e desenvolvimento. Mantendo um ciclo contínuo de feedback e interações para garantir agilidade e eficiência do processo.</p>
+                  <p class="card-texto">Utilizando estratégias de planejamento otimizadas para acelerar o fluxo de produção e desenvolvimento. Mantendo um ciclo contínuo de feedback e interações para garantir agilidade e eficiência do processo.</p>
                   <i class="fa-solid fa-clock"></i>
               </label>
           </div>
@@ -344,7 +344,7 @@
      <footer>
       <div class="container" id="footer">
           <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 medias">
                   <div class="logo">
                       <img id="logo" src="./img/gilson-rosto.jpg" alt="" class="imagem__rodape"><br>
                       <p>Obrigado por visistar meu Portfolio.</p>
@@ -365,22 +365,23 @@
               </ul>
           </div>
           <div class="col-md-4 medias">
-              <h3>Social Media</h3>
-              <div class="social">
+            <div class="social">
+                <h3>Social Media</h3>
                   <a href="javascript:void(0)" onclick="whatsSendMessage()">
-                      <i id="icon-main" class="fa-brands fa-square-whatsapp"></i>
+                      <img src="img/WhatsApp-Logo.wine.svg" alt="">
                   </a>                
               </div>
           </div>
          </div>
       </div>
-  </footer>
+    </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="assets/skills.js"></script>
       <script src="assets/contato.js"></script>
       <script src="assets/apresentacao.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
        <!-- Importação do Bootstrap JS -->
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 
 </body>

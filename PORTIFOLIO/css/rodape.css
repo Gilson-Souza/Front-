@@ -5,13 +5,15 @@ footer {
 }
 
 footer #logo{
-  width: 180px;
+  width: 170px;
 }
 
 #footer{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
+
 
 .medias{
   display: flex;
@@ -19,40 +21,33 @@ footer #logo{
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 
 .my-auto{
   list-style: none;
 }
 
-.ola{
-  margin-top: 1.5rem;
-}
-
-.ola p{
-  margin-top: .5rem;
-}
-
 footer .social a {
-  margin-right: 1rem;
+  margin: 1rem;
   transition: 0.3s;
-  display: inline-block;
 }
 
 #footer h3{
   background-image: linear-gradient(to bottom, Gold , Orange , DarkOrange );
   color: var(--text-color);
+  font-size: 1.25rem;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 footer .social{
-  margin-left: 20px;
-  margin-bottom: 20px;
+
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 3rem;
 }
   
 footer .social a:hover {
@@ -60,11 +55,19 @@ footer .social a:hover {
 }
 
 .imagem__rodape{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 80px;
+  max-height: 80px;
   border-radius: 25%;
 }
 
 .text-center{
   padding-bottom: 2rem;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
