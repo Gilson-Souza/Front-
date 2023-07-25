@@ -1,0 +1,161 @@
+.produtos{
+  display: flex;
+  flex-direction: column;
+  width: 1136px;
+  margin: 0 auto;
+  margin-top: 64px;
+  gap: 16px;
+}
+
+.produto__apresentacao{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.produtos__lista{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+
+.produto__titulo{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.produto__next{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 24px;
+}
+
+.produto__next button{
+  background-color: var(--text-icone);
+  border: none;
+}
+
+.textprodutos{
+  background-color: var(--text-icone);
+  color: var(--azul-button);
+  width: 66px;
+  height: 19px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.produtos__itens{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.produto__name{
+  color: var(--texto-produtos);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;  
+}
+
+.produto__preco{
+  color: var(--texto-produtos);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.produto__link{
+  color: var(--azul-button);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1250px){
+  .produtos__itens:last-child{
+    display: none;
+  }
+  .produtos{
+    width: 60rem;
+  }
+}
+
+
+@media screen and (max-width: 1100px){
+  .produtos{
+    width: 44rem;
+  }
+  .produtos__itens:nth-last-child(2),
+  .produtos__itens:last-child {
+    display: none;
+  }
+
+  .produtos__itens{
+    width: 164px;
+  }
+
+
+}
+  
+@media screen and (max-width: 760px){
+  
+  .produtos{
+    margin-top: 0;
+    width: 328px;
+    padding: 16px;
+     
+  }
+
+  .produto__apresentacao{
+    margin: 0 auto;
+    padding: 16px 16px 0 0;
+    margin-top: 0;
+    width: 328px;
+    height: 26px;
+  }
+
+  .produto__next{
+    gap: 4px; 
+  }
+
+  .seta{
+    width: 16px;
+    height: 16px;
+  }
+
+  .produto__titulo{
+    font-size: 1.375rem;
+  }
+  
+  .textprodutos{
+    font-size: 0.875rem;
+  }
+  
+
+ .produtos__itens{
+   width: 156px;
+   height: 249px;
+   
+ }
+
+ .produtos__lista{
+   margin: 0 auto;
+   width: 328px;
+   height: 514px;
+   flex-wrap: wrap;
+   
+ }
+
+}
+

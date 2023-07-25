@@ -1,0 +1,32 @@
+:root{
+  --text-icone: #FFFFFF;
+  --texto-apresentacao: #FFF;
+  --cor-fundo: #FFF;
+  --texto-produtos: #464646;
+  --texto-label: #A2A2A2;
+  --azul-button: #2A7AE4;
+  --cinza-fundo: #F5F5F5;
+  --fundo-footer: #EAF2FD;
+  --imagem-hero: url('../img/hero.jpg');
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 760px){
+  body{
+    height:3106px;
+  }
+}
+  
+
+
+
+  
+
+  
+
+
+
